@@ -1,5 +1,3 @@
-# wails-build-action
-
 # billikeu/wails-build-action
 GitHub action to build Wails.io, the action will install GoLang, NodeJS and run a build.
 this is to be used on a [Wails.io](https://wails.io) v2 project.
