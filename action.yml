@@ -103,7 +103,7 @@ runs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{inputs.node-version}}
-        package-manager: pnpm
+    - run: npm install -g pnpm
     # (Optional) Setup and configure Deno
     - name: Setup Deno
       uses: denoland/setup-deno@v1
