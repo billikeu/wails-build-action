@@ -104,7 +104,7 @@ runs:
       with:
         node-version: ${{inputs.node-version}}
     - name: install pnpm
-        run: npm i pnpm@latest -g
+      run: npm i pnpm@latest -g
     # (Optional) Setup and configure Deno
     - name: Setup Deno
       uses: denoland/setup-deno@v1
